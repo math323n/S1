@@ -18,10 +18,7 @@ namespace StarTrekProgram
         static void Main()
         {
             GenerateNames();
-            Spam();
-            Spam();
-            Spam();
-            Spam();
+           
 
         }
         static bool IsNameValid(string name)
@@ -30,9 +27,9 @@ namespace StarTrekProgram
         }
         static void GenerateNames()
         {
-            /*
 
-            for(int i = 0; i < 1085454545400; i++)
+
+            for(int i = 0; i < 10343804440; i++)
             {
                 // Get first name
                 string[] maleVulcanFirstName = maleVulcanValidCharacters[0].Split(",");
@@ -71,9 +68,9 @@ namespace StarTrekProgram
                 Console.Write(maleVulcanFifthName[index] + "\n");
                 string completeName = $"{maleVulcanFirstName}{maleVulcanSecondName}{maleVulcanThirdName}"
                     + $"{maleVulcanFourthName}{ maleVulcanFifthName}";
-                vulcanMaleNames.Add(completeName);*/
+                vulcanMaleNames.Add(completeName);
 
-
+            }
         }
         static void GetUserInput()
         {
@@ -89,51 +86,7 @@ namespace StarTrekProgram
             }
 
         }
-        // Test
-        static void Spam()
-        {
-            for(int i = 0; i < 1000; i++)
-            {
-                // Get first name
-                string[] maleVulcanFirstName = maleVulcanValidCharacters[0].Split(",");
-
-                Random random = new Random();
-                int index = random.Next(maleVulcanFirstName.Length);
-                // First name of vulcan
-                Console.Write(maleVulcanFirstName[index]);
-
-                // Get second name
-                string[] maleVulcanSecondName = maleVulcanValidCharacters[1].Split(",");
-                random = new Random();
-                index = random.Next(maleVulcanSecondName.Length);
-                // Second name of vulcan
-                Console.Write(maleVulcanSecondName[index] + "\n");
-
-                // Get third name   
-                string[] maleVulcanThirdName = maleVulcanValidCharacters[2].Split(",");
-                random = new Random();
-                index = random.Next(maleVulcanSecondName.Length);
-                // Third name of vulcan
-                Console.Write(maleVulcanThirdName[index]);
-
-                // Get fourth name
-                string[] maleVulcanFourthName = maleVulcanValidCharacters[1].Split(",");
-                random = new Random();
-                index = random.Next(maleVulcanFourthName.Length);
-                // Second name of vulcan
-                Console.Write(maleVulcanFourthName[index]);
-
-                // Get fifth name
-                string[] maleVulcanFifthName = maleVulcanValidCharacters[1].Split(",");
-                random = new Random();
-                index = random.Next(maleVulcanFifthName.Length);
-                // Second name of vulcan
-                Console.Write(maleVulcanFifthName[index] + "\n");
-                string completeName = $"{maleVulcanFirstName}{maleVulcanSecondName}{maleVulcanThirdName}"
-                    + $"{maleVulcanFourthName}{ maleVulcanFifthName}";
-                vulcanMaleNames.Add(completeName);
-            }
-        }
+      
 
 
 

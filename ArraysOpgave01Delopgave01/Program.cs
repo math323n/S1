@@ -7,6 +7,7 @@ namespace ArraysOpgave01Delopgave01
         static void Main(string[] args)
         {
             int[] myArray = new int[] {-29, -11, 7, 16, 24, 35, 49};
+            // kommentar
         }
     }
 }
